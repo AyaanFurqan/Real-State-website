@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #000;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1>button {
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+}
+
+.button2>button {
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid;
+    padding: 5px 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.right-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.colorbg {
+    background-image: linear-gradient(to right, rgb(173, 252, 255), rgb(255, 179, 217));
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.content>p {
+    font-size: 22px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="email"] {
+    width: 50%;
+    padding: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.image {
+    display: flex;
+    float: right;
+}
+
+.txt>p {
+    display: flex;
+    justify-content: center;
+}
+
+.txt>h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.banner2 {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner3 {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whitebg {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.txt3>h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.b4img {
+    display: flex;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorbg2 {
+    background-image: linear-gradient(to right, rgb(173, 252, 255), rgb(255, 179, 217));
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: left;
+}
+
